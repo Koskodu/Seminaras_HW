@@ -31,7 +31,7 @@ if (x > 0 && y < 0)
 if (x < 0 && y < 0)
     Console.Write($"Получается = -(1/{answer * -1})");
 
-if (x > 0 && y > 0)
+if ((x > 0 && y > 0)|(x < 0 && y > 0))
     //if (y <= 0 || y % 1 != 0)
     //{
     //    Console.WriteLine("Нужно ввести натуральное число для степени");
@@ -39,8 +39,7 @@ if (x > 0 && y > 0)
     //}
     //else
     //{
-
     Console.Write($"Получается = {answer}");
 //}
-if (x < 0 && y > 0)
-    Console.Write($"Получается = {answer}");
+
+Console.Write($"Получается = {answer}");
