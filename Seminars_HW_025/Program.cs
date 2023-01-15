@@ -25,6 +25,9 @@ double y = Convert.ToDouble(Console.ReadLine());
 
 double answer = Exponent(x, y);
 
+if (y == 0 | x ==0)
+    Console.Write($"Получается = {answer}");
+
 if (x > 0 && y < 0)
     Console.Write($"Получается = (1/{answer})");
 
@@ -42,4 +45,3 @@ if ((x > 0 && y > 0)|(x < 0 && y > 0))
     Console.Write($"Получается = {answer}");
 //}
 
-Console.Write($"Получается = {answer}");
