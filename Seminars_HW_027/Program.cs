@@ -13,7 +13,7 @@ int SumNumbers(int userN)
 
     for (int i = 0; i < numLength; i++)
     {
-        result = result + (userN - (userN - userN % 10));
+        result = result + userN % 10;
         userN = userN / 10;
     }
     return result;

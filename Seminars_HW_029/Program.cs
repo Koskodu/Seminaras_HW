@@ -12,7 +12,7 @@ int[] ArrayGen(int size)
     return array;
 }
 
-int[] arr = ArrayGen(5);
+int[] arr = ArrayGen(8);
 
 Console.Write('[');
 for (int i = 0; i < (arr.Length - 1); i++)
