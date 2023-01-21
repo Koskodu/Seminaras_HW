@@ -51,13 +51,17 @@ double[] CreateUserArray(string[] args) //создаем пользовател�
     return array;
 }
 
+
 bool IfParalel(double[] arrr)   //проверка на параллельность
+
 {
     if ((arrr[1] * arrr[2] - arrr[3] * arrr[0] == 0) || (arrr[1] == arrr[3])) return true;
     else return false;
 }
 
+
 (double, double) IfCross(double[] arrr) //поиск точки пересечения
+
 {
     double b1 = arrr[0], k1 = arrr[1], b2 = arrr[2], k2 = arrr[3];
     double x, y;
