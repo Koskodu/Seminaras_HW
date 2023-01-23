@@ -68,9 +68,9 @@ bool IfParalel(double[] arrr)   //проверка на параллельнос
 
     x = (b1 - b2) / (k2 - k1);
     y = k1 * x + b1;
-    (double, double) result = (x, y);
+    //(double, double) result = (x, y);
 
-    return result;
+    return (x, y);
 }
 
 double[] arr = CreateUserArray(args);
