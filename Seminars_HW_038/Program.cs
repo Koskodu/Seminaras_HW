@@ -51,6 +51,7 @@ double FindMinValue(double[] array) //поиск минимального эле
             min = array[i];
     }
     return min;
+
 }
 
 

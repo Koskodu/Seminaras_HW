@@ -81,6 +81,6 @@ if (IfParalel(arr) == true)
 }
 else
 {
-    (double, double) resTuple = IfCross(arr);
-    Console.WriteLine($"Прямые пересекутся в точке [ {Math.Round(resTuple.Item1, 3)}, {Math.Round(resTuple.Item2, 3)} ]");
+    (double x, double y) resTuple = IfCross(arr);
+    Console.WriteLine($"Прямые пересекутся в точке [ {Math.Round(resTuple.x, 3)}, {Math.Round(resTuple.y, 3)} ]");
 }
